@@ -7,9 +7,14 @@ threadsafe: true
 libraries:
 - name: jinja2
   version: latest
-
+- name: django
+  version: latest
 
 handlers:
+- url: /js/(.*)
+  static_files: js/\1
+  upload: js/(.*)
+
 - url: /css/(.*)
   static_files: css/\1
   upload: css/(.*)
@@ -17,6 +22,10 @@ handlers:
 - url: /images/(.*)
   static_files: images/\1
   upload: images/(.*)
+
+- url: /admin.*
+  login: admin
+  script: admin.app
 
 - url: /.*
   script: index.app
