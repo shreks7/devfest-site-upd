@@ -4,7 +4,7 @@ from google.appengine.api import users
 from google.appengine.ext import db
 from lib.model import Event
 from lib.forms import EventForm
-from lib.cobjects import *
+from lib.cobjects import CEventList, CEvent
 from datetime import datetime
 import urllib
 import json

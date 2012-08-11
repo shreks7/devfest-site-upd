@@ -1,6 +1,7 @@
 import os
 
-MAPS_API_KEY="AIzaSyBE0gXQmmILLuv0Qpj74JxHgavr0qeA8Kw"
+MAPS_API_KEY=None
+
 DOCSAPI_CONSUMER_KEY = None
 DOCSAPI_CONSUMER_SECRET = None
 DOCSAPI_SCOPES = ['https://spreadsheets.google.com/feeds/']
