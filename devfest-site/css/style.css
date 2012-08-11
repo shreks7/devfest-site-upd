@@ -133,6 +133,17 @@ body>section {
 	width: 100%;
 }
 
+#create_map_canvas {
+	height: 400px;
+	width: 470px;
+	float: right;
+	margin: 10px 50px 0 0;
+	background: #F7F7F7;
+	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa;
+	box-shadow: 0px 0px 4px #aaa;
+}
+
 #title {
 	width: 100%;
 	padding: 0;
@@ -256,7 +267,7 @@ body>section {
 }
 
 .icon-event-live {
-	background-image: url("../images/icons/live-icon.png");
+	background-image: url("../images/icons/gdl-icon.png");
 	background-repeat: no-repeat
 }
 
@@ -264,8 +275,134 @@ body>section {
 	margin:4px 0 10px 0;
 }
 
+#gdg-create-event {
+	float: left;
+	border: 1px solid #ddd;
+	padding: 30px 40px 20px 40px;
+	margin: 0px;
+	width:90%;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0 50px #ccc;
+	-moz-box-shadow: 0px 0 50px #ccc;
+	box-shadow: 0px 0 50px #ccc;
+}
+
+#gdg-create-event label{
+	display:block;
+	color:#666;
+	font-weight:bold;
+}
+
+#gdg-create-event .form_field{
+	margin-bottom:10px;
+}
+
+#gdg-create-event #agenda{
+	list-style:none;
+	display:inline;
+	width:100%;
+}
+
+#gdg-create-event #agenda li{
+	margin:5px 0px 15px 2px;
+	background: #F7F7F7;
+	padding:10px;
+	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa;
+	box-shadow: 0px 0px 4px #aaa;
+	
+}
+
+#gdg-create-event #agenda li:hover{
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+	box-shadow: 0px 0px 1px #aaa;
+	
+}
+
+#gdg-create-event #agenda input[type="checkbox"],input[type="radio"] {
+	float:right;
+	padding: 0px;
+	margin-top:20px;
+	width: 13px;
+	height: 13px;
+}
+
+#gdg-create-event select
+{
+	font-size: 14px;
+	color: #555;
+	border: 1px #eee solid;
+	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa;
+	box-shadow: 0px 0px 4px #aaa;
+	width: 240px;
+	margin-bottom: 20px;
+}
+
+#gdg-create-event input[type="text"],textarea,input[type="file"] {
+	padding: 8px;
+	margin: 4px 0 20px 0;
+	background: #fff;
+	width: 220px;
+	font-size: 14px;
+	color: #555;
+	border: 1px #eee solid;
+	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa;
+	box-shadow: 0px 0px 4px #aaa;
+}
+
+#gdg-create-event input[type="submit"] {
+	width: 150px;
+	color: #eee;
+	height:30px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	background-color: #18a5cc;
+	border: none;
+	/* -- CSS3 Transition - define which property to animate (i.e. the shadow)  -- */
+	-webkit-transition: -webkit-box-shadow 0.3s linear;
+	/* -- CSS3 Shadow - create a shadow around each input element -- */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc),
+		to(#0a85a8) );
+	background: -moz-linear-gradient(25% 75% 90deg, #0a85a8, #18a5cc);
+	/* -- CSS3 - Rounded Corners -- */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	float: left;
+}
+
+#gdg-create-event input[type="submit"]:hover {
+	-webkit-box-shadow: 0px 0px 20px #555;
+	-moz-box-shadow: 0px 0px 20px #aaa;
+	box-shadow: 0px 0px 20px #555;
+	cursor: pointer;
+}
 
 
+
+#gdg-create-event textarea {
+	width: 270px;
+	height: 175px;
+}
+
+#gdg-create-event .error ul {
+	list-style:none;
+}
+
+#gdg-create-event .error .alert{
+	width:50%;
+	background:none;
+	border:none;
+	padding:4px;
+	margin-top:-10px;
+	margin-left:-2px;
+}
 
 
 
